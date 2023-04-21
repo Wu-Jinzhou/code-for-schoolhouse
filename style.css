@@ -1,0 +1,40 @@
+body {
+  font-family: "DM Sans", "Lato", sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+/* class */
+.head-img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: 2px dashed gray;
+  margin-top: 20px;
+  margin-bottom: 0.25rem;
+}
+
+.head-img-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e2e8f0;
+  padding: 1.5rem;
+  border-bottom: solid;
+  border-width: 2px;
+  border-color: #A0AEC0;
+}
+
+.facts {
+  background-color: #4299e1;
+  padding: 10px;
+  color: white;
+}
